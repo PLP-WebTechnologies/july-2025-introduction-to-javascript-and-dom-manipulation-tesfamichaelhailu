@@ -1,0 +1,29 @@
+/* Base styles for the whole page */
+body {
+    font-family: Arial, sans-serif; /* Clean and readable font */
+    margin: 2rem; /* Space around content */
+    background-color: white; /* Default background */
+    color: #222; /* Dark text color for readability */
+    transition: background-color 0.3s, color 0.3s; /* Smooth color transition */
+  }
+  
+  /* Dark mode styles toggled via JS */
+  .dark-mode {
+    background-color: #222; /* Dark background */
+    color: #eee; /* Light text for contrast */
+  }
+  
+  /* Style buttons for better clickability */
+  button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem; /* Padding for comfort */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  /* Section spacing and border for clear separation */
+  section {
+    margin-bottom: 2rem; /* Space between sections */
+    padding-bottom: 1rem; /* Padding inside section */
+    border-bottom: 1px solid #ccc; /* Light gray border */
+  }
+  
